@@ -10,7 +10,7 @@ class Templatizer < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/wesovilabs/templatizer/releases/download/v0.0.1/templatizer_0.0.1_darwin_amd64.tar.gz"
-      sha256 "96b34c108d5e801ef21a94d62baddd47a939603c5cd4b66e286ad0bb75cc4146"
+      sha256 "2ea49bdcd01a1c76c8910395580cc9cbd11695aa2e3e10e3b2f25afe55e4e4d7"
 
       def install
         bin.install "templatizer"
@@ -21,7 +21,7 @@ class Templatizer < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/wesovilabs/templatizer/releases/download/v0.0.1/templatizer_0.0.1_linux_amd64.tar.gz"
-      sha256 "4dd8bd19beb7ada6e303a3eaf7349a38471decb02fcfbacadc8de99ff506e74b"
+      sha256 "a513a9010015e1dc75c726ceed3141918342a2ac05115cb075c46b028d37b462"
 
       def install
         bin.install "templatizer"
